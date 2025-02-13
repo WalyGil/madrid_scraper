@@ -165,7 +165,7 @@ with col2:
 if st.button("🔍 Buscar"):
     try:
         # Inicializar Google Maps
-        gmaps = googlemaps.Client(key="TU_API_KEY")
+        gmaps = googlemaps.Client(key="AIzaSyDUqEMMfHqSQX0KafmepBiZR6SMS_UcTtQ")
         
         # Geocodificar la zona seleccionada
         geocode_result = gmaps.geocode(f"{zona}, Madrid, España")
